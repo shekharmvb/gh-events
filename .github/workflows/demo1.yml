@@ -1,5 +1,5 @@
 name: Events Demo 1
-on: ...
+on: [push, pull_request, workflow_dispatch]
 jobs:
   deploy:
     runs-on: ubuntu-latest
